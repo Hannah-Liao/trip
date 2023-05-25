@@ -51,7 +51,7 @@ const TourDetails = () => {
             alert(res.data.message)
 
         } catch (err) {
-            alert(err.message)
+            alert("Please select a rating score")
         }
     }
 
